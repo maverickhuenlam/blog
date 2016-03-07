@@ -23,7 +23,7 @@ config = {
 
         server: {
             host: '0.0.0.0',
-            port: '2368'
+            port: '80'
         }
     },
 
@@ -31,7 +31,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://sigmoid.xyz:2368',
+        url: 'http://sigmoid.xyz',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
@@ -63,7 +63,7 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: '80'
         },
         // #### Paths
         // Specify where your content directory lives
